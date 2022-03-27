@@ -1,0 +1,11 @@
+import pandas as pd
+ipl=pd.read_csv("C:/Users/Admin/Downloads/archive/IPL Matches 2008-2020.csv")
+ipl.head()
+ipl.tail()
+ipl.mean()
+ipl.median()
+ipl.mode()
+ipl.std()
+ipl.var()
+ipl.skew()
+ipl.kurt()
